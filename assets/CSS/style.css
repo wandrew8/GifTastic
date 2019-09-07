@@ -1,0 +1,53 @@
+img {
+    max-height: 80px;
+}
+
+form {
+    justify-content: right;
+}
+
+body {
+    background-image: url("../Images/natural.png");
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 2em;
+    text-align: center;
+    color: #2f3542;
+    padding-top: 2%;
+
+}
+
+p {
+    font-family: 'Crete Round', serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #2f3542;
+}
+
+#navbar {
+    background-image: url("../Images/background.gif");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-holder {
+    min-height: 50vh;
+    height: auto;
+    width: 100%;
+    background-color: #f1f2f6;  
+    padding: 2%;
+    margin-top: 2%;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    padding: 0px;
+}
