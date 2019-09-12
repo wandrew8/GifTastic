@@ -23,7 +23,7 @@ function displayGifs() {
             var gifImage = $("<img class='gifImage'>");
             gifImage.attr("src", response.data[i].images.fixed_height_still.url);
             gifImage.attr("data-animate", response.data[i].images.fixed_height.url);
-            gifImage.attr("data-state");
+            gifImage.attr("data-still", response.data[i].images.fixed_height_still.url);
             $("#add-gif").append(gifImage);
 
         }
@@ -69,7 +69,7 @@ $(document).on("click", ".gifImage", function () {
     var state = $(this).attr("data-state");
     var animate = $(this).attr("data-animate");
     var still = $(this).attr("data-still");
-
+    
     if (state === "still") {
         $(this).attr("src", animate);
         $(this).attr("data-state", "animate");
